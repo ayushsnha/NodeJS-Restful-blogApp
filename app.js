@@ -109,7 +109,7 @@ var express = require('express'),
 	});
 
 
-    app.listen(process.env.PORT,process.env.IP),function(){
+    app.listen(process.env.PORT,process.env.IP,function(){
 
-    	console.log('SERVER IS RUNNING');
+    	console.log('SERVER IS RUNNING')
     });
